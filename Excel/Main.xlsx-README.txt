@@ -1,0 +1,21 @@
+CREATE Main.xlsx WITH THE FOLLOWING STRUCTURE:
+
+Sheet Name: Modules
+
+Columns:
+1. Module Name       - Name of the module (e.g., "User Management", "Class Schedule")
+2. Excel Path        - Full path to module Excel file (e.g., "/home/ic-002/Desktop/TestPlaywright/Excel/KlasGuru Shl Ad Class Schedule.xlsx")
+3. Index File Name   - Module report filename (e.g., "user-management-index.html")
+4. Status            - "Active" or "Inactive"
+
+Example Data:
+Module Name          | Excel Path                                                                      | Index File Name                  | Status
+---------------------|---------------------------------------------------------------------------------|----------------------------------|--------
+User Management      | /home/ic-002/Desktop/TestPlaywright/Excel/User Management.xlsx                 | user-management-index.html       | Active
+Class Schedule       | /home/ic-002/Desktop/TestPlaywright/Excel/KlasGuru Shl Ad Class Schedule.xlsx  | class-schedule-index.html        | Active
+Student Onboarding   | /home/ic-002/Desktop/TestPlaywright/Excel/KlasGuru Shl Ad Student Onboarding.xlsx | student-onboarding-index.html | Inactive
+
+NOTES:
+- Only modules with Status="Active" will be executed
+- Index File Name will be used for module-level report
+- All reports will be generated in the "reports/" folder
