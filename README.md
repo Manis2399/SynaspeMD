@@ -34,7 +34,7 @@ A **zero-code automation framework** built with Playwright and Java that enables
 ### 1. Clone Repository
 ```bash
 git clone <repository-url>
-cd klasguru
+
 ```
 
 ### 2. Install Dependencies
